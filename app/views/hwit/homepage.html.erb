@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel ="stylesheet" href="main.css">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <script src="https://use.fontawesome.com/90e3edfc34.js"></script>
+      <meta charset="UTF-8">
+      <title>Here's What I Think</title>
+    </head>
+
+
+
+  <body>
+
+    <div class = "header">
+      <br><h2>HERE'S WHAT I THINK</h2>
+      <div class="navbar">
+        <div class="width">
+          <%= link_to "Latest",   'hwit/latest' %>
+          <%= link_to "Music",   'hwit/music' %><%= link_to "Movies",   'hwit/movies' %><%= link_to "Everything Else",   'hwit/everything_else' %>
+          <%= link_to "About",   'hwit/about' %>
+        </div>
+      </div>
+
+    </div>
+    <div class="subheader">
+      <h3>HOMEPAGE</h3>
+    </div>
+
+    <div class = "teaser">
+      <div class="image">
+        <%=image_tag("baroness_blue_record.jpg", :alt => "baroness blue record") %>
+      </div>
+      <div class="column">
+        <h4>10/25/17</h4>
+        <h3>The Blue Album</h3>
+        <h1>Baroness</h1>
+        <p>Ut mattis nulla et arcu lobortis condimentum. Nullam ac metus ut turpis lobortis dapibus vel molestie augue. Proin maximus, enim in sollicitudin aliquam, nulla leo dictum metus, at mollis nisi arcu ac elit. Praesent tincidunt ac lacus eu imperdiet. Praesent gravida placerat pretium. Vivamus dictum est rhoncus, facilisis velit et, elementum erat.</p>
+      </div>
+        <div class="column" id="wide">
+          <a href="#" id="read"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+
+    <div class = "teaser">
+      <div class="image">
+        <%= image_tag("muramasa.jpg", :alt => "muramasa") %>
+      </div>
+    <div class="column">
+    <h4>10/25/17</h4>
+    <h3>Mura Masa</h3>
+    <h1>Mura Masa</h1>
+
+    <p>Ut mattis nulla et arcu lobortis condimentum. Nullam ac metus ut turpis lobortis dapibus vel molestie augue. Proin maximus, enim in sollicitudin aliquam, nulla leo dictum metus, at mollis nisi arcu ac elit. Praesent tincidunt ac lacus eu imperdiet. Praesent gravida placerat pretium. Vivamus dictum est rhoncus, facilisis velit et, elementum erat.</p>
+  </div>
+  <div class="column" id="wide">
+    <a href="#" id="read"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+  </div>
+  </div>
+
+  <div class="subheader">
+    <h3>MOVIES</h3>
+  </div>
+
+  <div class = "teaser">
+    <div class="image">
+      <img src="images/american_beauty.jpg"></img>
+    </div>
+    <div class="column">
+    <h3>American Beauty</h3>
+    <h1>Sam Mendes</h1>
+    <p>Ut mattis nulla et arcu lobortis condimentum. Nullam ac metus ut turpis lobortis dapibus vel molestie augue. Proin maximus, enim in sollicitudin aliquam, nulla leo dictum metus, at mollis nisi arcu ac elit. Praesent tincidunt ac lacus eu imperdiet. Praesent gravida placerat pretium. Vivamus dictum est rhoncus, facilisis velit et, elementum erat.</p>
+  </div>
+  </div>
+
+  <div class = "teaser">
+  <div class="image">
+    <img src="images/graduate.jpg"></img>
+  </div>
+  <div class="column">
+  <h3>The Graduate</h3>
+  <h1>Mike Nichols</h1>
+  <p>Ut mattis nulla et arcu lobortis condimentum. Nullam ac metus ut turpis lobortis dapibus vel molestie augue. Proin maximus, enim in sollicitudin aliquam, nulla leo dictum metus, at mollis nisi arcu ac elit. Praesent tincidunt ac lacus eu imperdiet. Praesent gravida placerat pretium. Vivamus dictum est rhoncus, facilisis velit et, elementum erat.</p>
+  </div>
+  </div>
+
+  </body>
+
+
+
+</html>
